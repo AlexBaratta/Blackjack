@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Blackjack Game</title>
+    <link href="style.css"/>
+    <link href="resultScrn.html"/>
+    <style>
+      
+      .card-image {
+        width: 80px; /* Adjust the width  */
+        height: 120px; /* Adjust the height  */
+      }
+    
+      #player-cards li,
+      #dealer-cards li {
+        display: inline-block;
+        margin-right: 5px; /* Adjust the margin  */
+      }
+    </style>
+    
+    
+  </head>
+  <body>
+    <h1>Blackjack</h1>
+    <div id="game">
+      <button id="deal">Deal</button>
+      <button id="hit">Hit</button>
+      <button id="stand">Stand</button>
+      <div id="player-hand">
+        <h2>Player Hand:</h2>
+        <ul id="player-cards"></ul>
+        <p id="player-points">Points: 0</p>
+      </div>
+      <div id="dealer-hand">
+        <h2>Dealer Hand:</h2>
+        <ul id="dealer-cards"></ul>
+        <p id="dealer-points">Points: 0</p>
+      </div>
+      <p id="result"></p>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

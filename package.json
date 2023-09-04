@@ -1,0 +1,15 @@
+{
+  "name": "diump",
+  "productName": "Test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.0.1"
+  }
+}
